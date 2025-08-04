@@ -1,0 +1,114 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.container_text{
+    display: flex;
+    justify-content: center;
+    gap: 25px;    
+}
+
+.output_text{
+    height:100px;
+    width:40%;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+/*HEADERR*/
+.header_section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_header{
+    height:25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container_header{
+    text-align: center;
+    color: rgb(102, 49, 0);
+}  
+
+.container_header>h1{
+    font-size: 40px;
+} 
+.container_header>p{
+    font-size: 20px;
+} 
+
+
+
+/*SECTION PENJELASAn*/
+
+.section_penjelasan{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section_penjelasan>div{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.section_penjelasan>div>h1{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(102, 49, 0);
+
+}
+
+.section_penjelasan>div>p{
+    text-align: justify;
+    width: 80%;
+    font-size: 20px;
+    color: rgb(102, 49, 0);
+
+}
+
+
+#penjelasan_scale{
+    padding-top: 20px;
+    margin-block:25px;
+}
+
+#penjelasan_chord{
+    margin-block:25px;
+}
+
+
+
+/*FOOTER*/
+
+footer{
+
+    background-color: rgb(102, 49, 0);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+}

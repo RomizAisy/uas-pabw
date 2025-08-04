@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DEE8CE;
+    font-family:  "Montserrat", sans-serif;
+}
+
+
+
+
+/*TOMBOL UTAMA*/
+#container_tombol_utama{
+    text-align: center;
+    margin-block: 20px;
+}
+
+.tombol_toggle{
+    height: 35px;
+    padding-inline: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #ff8f8f;
+
+}
+
+.tombol_utama{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+#main_A, #main_A_scale              { background-color: #ffb3ba; } /* pastel merah muda */
+#main_ASharp,#main_ASharp_scale     { background-color: #ffdfba; } /* pastel oranye muda */
+#main_B,#main_B_scale               { background-color: #ffffba; } /* pastel kuning muda */
+#main_C ,#main_C_scale              { background-color: #baffc9; } /* pastel hijau mint */
+#main_CSharp ,#main_CSharp_scale    { background-color: #bae1ff; } /* pastel biru langit */
+#main_D,#main_D_scale               { background-color: #d5baff; } /* pastel ungu muda */
+#main_DSharp,#main_DSharp_scale     { background-color: #ffc9de; } /* pastel pink */
+#main_E,#main_E_scale               { background-color: #c9fff4; } /* pastel aqua muda */
+#main_F,#main_F_scale               { background-color: #e2f0cb; } /* pastel hijau zaitun muda */
+#main_FSharp,#main_FSharp_scale     { background-color: #ffe2f0; } /* pastel pink lembut */
+#main_G,#main_G_scale               { background-color: #f0e2ff; } /* pastel ungu kabut */
+#main_GSharp,#main_GSharp_scale     { background-color: #f0f0f0; } /* pastel abu muda */
+
+/*FRETBOARD*/
+
+#fretboard_gitar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(102, 49, 0);
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+.fret{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 25px;
+    width:100px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    position: relative;
+}
+.fret:not(#fret_0, #fret_12)::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 4px;
+    height: 100%;
+    background-color: rgb(255, 143, 38);
+    margin-left: 85px;
+    
+}
+
+#fret_0{
+    padding-left:20px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
+#fretboard_gitar:before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 20px;
+    height: 100%;
+    background-color: rgb(255, 228, 139);
+    margin-left:80px;
+}
+
+
+/*NOTE*/
+
+.noteAll{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    
+}
+.color_A        { background-color: #ffb3ba; } /* pastel merah muda */
+.color_ASharp   { background-color: #ffdfba; } /* pastel oranye muda */
+.color_B        { background-color: #ffffba; } /* pastel kuning muda */
+.color_C        { background-color: #baffc9; } /* pastel hijau mint */
+.color_CSharp   { background-color: #bae1ff; } /* pastel biru langit */
+.color_D        { background-color: #d5baff; } /* pastel ungu muda */
+.color_DSharp   { background-color: #ffc9de; } /* pastel pink */
+.color_E        { background-color: #c9fff4; } /* pastel aqua muda */
+.color_F        { background-color: #e2f0cb; } /* pastel hijau zaitun muda */
+.color_FSharp   { background-color: #ffe2f0; } /* pastel pink lembut */
+.color_G        { background-color: #f0e2ff; } /* pastel ungu kabut */
+.color_GSharp   { background-color: #f0f0f0; } /* pastel abu muda */
+
+
+.note_A        { background-color: #ffb3ba; } /* pastel merah muda */
+.note_ASharp   { background-color: #ffdfba; } /* pastel oranye muda */
+.note_B        { background-color: #ffffba; } /* pastel kuning muda */
+.note_C        { background-color: #baffc9; } /* pastel hijau mint */
+.note_CSharp   { background-color: #bae1ff; } /* pastel biru langit */
+.note_D        { background-color: #d5baff; } /* pastel ungu muda */
+.note_DSharp   { background-color: #ffc9de; } /* pastel pink */
+.note_E        { background-color: #c9fff4; } /* pastel aqua muda */
+.note_F        { background-color: #e2f0cb; } /* pastel hijau zaitun muda */
+.note_FSharp   { background-color: #ffe2f0; } /* pastel pink lembut */
+.note_G        { background-color: #f0e2ff; } /* pastel ungu kabut */
+.note_GSharp   { background-color: #f0f0f0; } /* pastel abu muda */
+
+
